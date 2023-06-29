@@ -1,0 +1,31 @@
+body {
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.credit{
+    background-color: black;
+    font-size: 1.3em;
+    color: antiquewhite;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.credit a{
+    color: blue;
+    transition: 1s;
+}
+
+.credit a:hover {
+color: white;
+text-shadow: 0 0 8px white;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    top: 900px;
+}
