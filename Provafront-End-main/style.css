@@ -1,0 +1,41 @@
+body {
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.credit{
+    font-size: 1.3em;
+    color: antiquewhite;
+    padding: 1em;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.credit a{
+    color: blue;
+    transition: 1s;
+}
+
+.credit a:hover {
+color: white;
+text-shadow: 0 0 8px white;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    top: 900px;
+}
+
+form{
+color: blanchedalmond;
+width: 50px;
+text-align: center center;
+}
+
+header{
+    text-align: center;
+}
